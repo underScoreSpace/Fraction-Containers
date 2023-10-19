@@ -23,7 +23,7 @@ HANDLE color = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int main() {
 	do {
-		system("cls");
+		system("cls"); //bad practice used only for demonstration purposes/part of schoolwork
 		menuText();
 		switch (menuOption()) {
 		case 'V': vectorCase(); break;
